@@ -201,3 +201,47 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+@media (max-width: 600px){
+    header{
+        max-height: 70px;
+        position: fixed;
+    }
+    header h1{
+        font-size: 20px;
+    }
+    .homes{
+        text-align: center;
+        height: 100vh;
+        padding-top: 40px;  
+    }
+    .homes h2{
+        font-size: 20px;
+    }
+    .homes p{
+        font-size: 14px;
+    }
+    nav ul li {
+        display: inline-flex;
+        margin: 0;
+        font-size: 14px;
+        padding: 0 7px;
+    }
+    .semi{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    .menu-item {
+        border: 1px solid #ddd;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        display: inline-block;
+        max-width: 100px;
+        max-height: 200px;
+        font-weight: 600;
+        color: #E7E8D1;
+        align-items: center;
+    }
+
+}
