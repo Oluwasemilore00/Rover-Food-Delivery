@@ -1,0 +1,203 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/mimi.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #B85042;
+    color: #E7E8D1;
+    text-align: center;
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+}
+button{
+    background-color: #B85042;
+    color: #A7BEAE;
+    border: none;
+    padding: 5px;
+}
+h2, h3{
+    color: #B85042;
+}
+header h1{
+    margin-top: 0;
+}
+.homes{
+    text-align: center;
+    height: 100vh;
+    padding-top: 200px;
+   
+}
+.homes h2{
+    margin-top: 70px;
+    font-size: 50px;
+}
+.homes p{
+    color: #A7BEAE;
+    font-size: 25px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5rem;
+}
+
+nav ul li a {
+    color: #E7E8D1;
+    text-decoration: none;
+}
+.semi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: inline-block;
+    max-width: 500px;
+    font-weight: 600;
+    color: #E7E8D1;
+}
+.btn-secondary{
+    text-decoration: none;
+    color: #333;
+}
+#order p{
+    color: #E7E8D1;
+}
+#order-list {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    color: #A7BEAE;
+}
+
+#order-form {
+    margin-top: 2rem;
+    text-align: left;
+    max-width: 400px;
+    margin: 2rem auto;
+    color: #E7E8D1;
+}
+
+#order-form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+#order-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.cc1{
+   background-image: url(images/pizza.jpeg);
+   background-size: cover;
+   background-position: center;
+}
+.cc2{
+    background-image: url(images/burger.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc3{
+    background-image: url(images/wings.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc4{
+    background-image: url(images/beans.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc5{
+    background-image: url(images/yam.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc6{
+    background-image: url(images/moin.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc7{
+    background-image: url(images/hot.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc8{
+    background-image: url(images/semo.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc9{
+    background-image: url(images/mac.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc10{
+    background-image: url(images/jollof.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc11{
+    background-image: url(images/guac.webp);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc12{
+    background-image: url(images/paella.webp);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc13{
+    background-image: url(images/sushi.webp);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc14{
+    background-image: url(images/saus.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .cc15{
+    background-image: url(images/puff.jpeg);
+    background-size: cover;
+    background-position: center;
+ }
+ .con p{
+    color: #A7BEAE;
+ }
+
+footer {
+    background-color: #B85042;
+    color: #A7BEAE;
+    text-align: center;
+    padding: 1rem 0;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main class="main">
+    <header>
+        <div>
+           <h1>Rover Food Delivery</h1>
+        <nav>
+            <ul>
+                <li><a href="#homes">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="homes">
+            <h2>Welcome to Rover Food Delivery</h2>
+            <p>Your favorite meals delivered fast and fresh.</p>
+            
+        </div>
+    </section>
+
+    
+
+    <section id="menu">
+       
+        <h2>Our Menu</h2>
+        <div class="semi">
+            <div class="menu-item cc1">
+                <h3>Pizza</h3>
+                <p>Cheesy and delicious. $10.99</p>
+                <button onclick="addToOrder('Pizza', 10.99)">Add to Order</button>
+            </div>
+            <div class="menu-item cc2">
+                <h3>Burger</h3>
+                <p>Juicy beef patty with fresh veggies. $8.99</p>
+                <button onclick="addToOrder('Burger', 8.99)">Add to Order</button>
+                
+            </div>
+            <div class="menu-item cc3">
+                <h3>Wings</h3>
+                <p>Tasty and delicious. $12.99</p>
+                <button onclick="addToOrder('Wings', 12.99)">Add to Order</button>
+            </div>
+            <div class="menu-item cc4">
+                <h3>Beans</h3>
+                <p>Tasty and delicious. $10.99</p>
+                <button onclick="addToOrder('Beans', 10.99)">Add to Order</button>
+            </div>
+            <div class="menu-item cc5">
+                <h3>Yam</h3>
+                <p>Yam with delicious egg sauce. $8.99</p>
+                <button onclick="addToOrder('Yam', 8.99)">Add to Order</button>
+                
+            </div>
+            <div class="menu-item cc6">
+                <h3>Moin Moin</h3>
+                <p>Alongside Custard. $12.99</p>
+                <button onclick="addToOrder('Moin Moin', 12.99)">Add to Order</button>
+            </div>
+            <div class="menu-item cc7">
+                <h3>Hot Dog</h3>
+                <p>Tasty and delicious. $10.99</p>
+                <button onclick="addToOrder('Hot Dog', 10.99)">Add to Order</button>
+            </div>
+            <div class="menu-item cc8">
+                <h3>Ponded Yam</h3>
+                <p>With fresh veggies. $8.99</p>
+                <button onclick="addToOrder('Ponded Yam', 8.99)">Add to Order</button>
+                
+            </div>
+            <div class="menu-item cc9">
+                <h3>Mac and Cheese</h3>
+                <p>Tasty and delicious. $12.99</p>
+                <button onclick="addToOrder('Mac and Cheese', 12.99)">Add to Order</button>
+            </div>
+            <div class="menu-item cc10">
+                <h3>Jollof Rice</h3>
+                <p>With Plaintain and Cruncy Chicken. $10.99</p>
+                <button onclick="addToOrder('Jollof Rice', 10.99)">Add to Order</button>
+            </div>
+            <div class="menu-item cc11">
+                <h3>Guacamole</h3>
+                <p>With fresh veggies. $8.99</p>
+                <button onclick="addToOrder('Guacamole', 8.99)">Add to Order</button>
+                
+            </div>
+            <div class="menu-item cc12">
+                <h3>Pasta</h3>
+                <p>Tasty and delicious. $12.99</p>
+                <button onclick="addToOrder('Pasta', 12.99)">Add to Order</button>
+            </div>       
+        </div>
+        
+    </section>
+    
+
+    <section id="order">
+        <h2>Your Order</h2>
+        <ul id="order-list">
+            <!-- Order items will be added here -->
+        </ul>
+        <p>Total: $<span id="total-price">0.00</span></p>
+        <form id="order-form">
+            <h3>Delivery Details</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <section id="contact" class="con">
+        <h2>Contact Us</h2>
+        <p>Email: info@deliciouseats.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rover Food Delivery</p>
+    </footer>
+
+   </main>
+    <script src="script.js"></script>
+</body>
+</html>
