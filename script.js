@@ -41,7 +41,7 @@ document.getElementById('order-form').addEventListener('submit', function(event)
     const phone = document.getElementById('phone').value;
 
     if (order.length > 0) {
-        alert(`Order placed!\nName: ${name}\nAddress: ${address}\nPhone: ${phone}\nTotal: $${total.toFixed(2)}`);
+        alert(`Order placed!\nName: ${name}\nAddress: ${address}\nPhone: ${phone}\nTotal: ₦${total.toFixed(2)}`);
         order = [];
         total = 0;
         updateOrder();
