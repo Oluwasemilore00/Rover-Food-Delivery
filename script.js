@@ -16,7 +16,7 @@ function updateOrder() {
 
     order.forEach((orderItem, index) => {
         const li = document.createElement('li');
-        li.textContent = `${orderItem.item} - $${orderItem.price.toFixed(2)}`;
+        li.textContent = `${orderItem.item} - ₦${orderItem.price.toFixed(2)}`;
         const removeButton = document.createElement('button');
         removeButton.textContent = 'Remove';
         removeButton.onclick = () => removeFromOrder(index);
